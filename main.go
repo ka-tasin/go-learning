@@ -20,3 +20,7 @@ func main() {
 
 	fmt.Println(add(a, b))
 }
+
+func init() {
+	fmt.Println("####  This init will execute first  ####")
+}

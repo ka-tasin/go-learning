@@ -8,8 +8,8 @@ type User struct {
 
 func main() {
 	var user1 User //instantiate
-	user1.name = "tasin"
-	user1.age = 27
+	user1.name = "tasin";
+	user1.age = 27;
 
 	// Instance or Object
 	user2 := User{
